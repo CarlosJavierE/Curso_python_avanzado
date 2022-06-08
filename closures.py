@@ -24,6 +24,8 @@
 # no este dentro de su alcance.
 
 # ejemplo
+
+
 def make_multiplier(x):
 
     def multiplier(n):
