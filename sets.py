@@ -1,6 +1,6 @@
 # las llaves son los sets
 # los sets eliminan los elementos repetidos
-# my_set = {3, 4, 5}
+# my_set = {3, 4, 5, 5}
 # print("my_set ", my_set)
 
 # my_set2 = {"Hola", 23.3, False, True}
@@ -12,7 +12,7 @@
 # my_set4 = {[1, 2, 3], 4}
 # print("my_set ", my_set4)
 
-# empty_set = {}
+# empty_set = {}    # las llaves vacias representan diccionarios vacios
 # print(type(empty_set))
 
 # real_empty_set = set()  # para poder crear un set vacio
@@ -39,31 +39,31 @@
 # todos los transforma a set y elmina los elemntos repetidos
 
 
-# borrando sets
-mi_set = {1, 2, 3, 4, 5, 6, 7}
-print(mi_set)
-# borrar un elemnto existente
-mi_set.discard(1)
-print(mi_set)
-# borrar un elemnto existente
-mi_set.remove(2)
-print(mi_set)
-# borrar un elemnto existente
-mi_set.discard(10)
-print(mi_set)
-# borrar un elemnto existente
-# mi_set.remove(12)
+# # borrando sets
+# mi_set = {1, 2, 3, 4, 5, 6, 7}
 # print(mi_set)
+# # borrar un elemnto existente
+# mi_set.discard(1)
+# print(mi_set)
+# # borrar un elemnto existente
+# mi_set.remove(2)
+# print(mi_set)
+# # borrar un elemnto existente
+# mi_set.discard(10)
+# print(mi_set)
+# # borrar un elemnto existente
+# # mi_set.remove(12)
+# # print(mi_set)
 
 # discard elimina un numero del set y si no esta devuelve el mismo set
-# remove elimina un numero del set y si no esta salta un keyerror por no hay ese elemntp
+# remove elimina un numero del set y si no esta salta un keyerror por no hay ese elemento
 
 # borrar un elemnto aleatorio
-mi_set.pop()
-print(mi_set)
+# mi_set.pop()
+# print(mi_set)
 
-# limpiar set
-mi_set.clear()
-print(mi_set)
+# # limpiar set
+# mi_set.clear()
+# print(mi_set)
 
 
