@@ -4,7 +4,7 @@ import time
 
 class FiboIter:
 
-    def __init__(self, maximo):
+    def __init__(self, maximo=None):
         self.maximo = maximo
     
     def __iter__(self):
@@ -22,7 +22,7 @@ class FiboIter:
             self.counter += 1
             return self.n2
         else:
-            if self.counter < self.maximo:
+            if not self.maximo or self.counter <= self.maximo:
                 self.aux = self.n1 + self.n2
                 self.n1, self.n2 = self.n2, self.aux
                 self.counter += 1
@@ -33,7 +33,7 @@ class FiboIter:
 
 
 if __name__ == '__main__':
-    fibonacci = FiboIter(500)  
+    fibonacci = FiboIter(10)  
     for element in fibonacci:  
         print(element)
         time.sleep(0.05) 
