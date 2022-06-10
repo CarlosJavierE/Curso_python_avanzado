@@ -28,6 +28,6 @@ my_list = [0, 1, 4, 7, 9, 10]
 lista_comprehension = [x * 2 for x in my_list]
 print(lista_comprehension)
 my_second_gen = (x * 2 for x in my_list)    # esto me genera un iterable
-for i in my_second_gen:
+for i in my_second_gen:                     # esto ahorra espacion en memoria
     print(i)
 
